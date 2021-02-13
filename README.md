@@ -4,7 +4,7 @@
 Simple command line tool for solving the n-queens problem for arbitrary-sized boards. This repository is a companion for an upcoming blog post (link to follow).
 
 ## Installation
-### Option 1: Prebuild binaries
+### Option 1: Prebuilt binaries
 1. Prebuilt binaries are available from the `Releases` page for GOOS=Linux, Windows, Darwin.
 
 ### Option 2: Build from source
