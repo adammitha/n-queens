@@ -15,6 +15,7 @@ func (q Queen) attacks(queens []Queen) bool {
 	return false
 }
 
+// diagonal returns true if q and queen are on a shared diagonal
 func (q Queen) diagonal(queen Queen) bool {
 	dx := int(math.Abs(float64(q[1] - queen[1])))
 	dy := int(math.Abs(float64(q[0] - queen[0])))

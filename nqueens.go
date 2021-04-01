@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// nextBoards takes an existing board and creates an array of new boards
+// nextBoards takes an existing board and creates a slice of new boards
 // with each empty space filled with a queen.
 // E.g.
 // F F    T F  F T  F F  F F
