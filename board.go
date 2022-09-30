@@ -59,7 +59,7 @@ func (b *Board) valid() bool {
 	return true
 }
 
-// duplicate copies old board into a new board and returns the new board
+// duplicate copies an old board into a new board and returns the new board
 func (b Board) duplicate() Board {
 	duplicate := make(Board, len(b))
 
