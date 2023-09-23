@@ -22,10 +22,12 @@
             # goimports, godoc, etc.
             gotools
 
+            # Go languate server
+            gopls
+
             # https://github.com/golangci/golangci-lint
             golangci-lint
           ];
-	  shellHook = "exec $SHELL";
         };
       });
     };
